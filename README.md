@@ -42,11 +42,21 @@ Each question is run through all prompt styles, and the model’s responses are 
    ```
 3. Example Output
    ```bash
-    尿病问答提示词优化实验
-    ==================================================
-    正在运行对比实验...
-    已完成问题: What are the early symptoms of diabetes mellitus?
-   ...
-    结果已保存到 prompt_comparison_20250609_xxxxxx.json
-    报告已生成: prompt_report_20250609_xxxxxx.txt
+   糖尿病问答提示词优化实验
+   ==================================================
+
+   正在运行对比实验...
+   已完成问题: What are the early symptoms of diabetes mellitus?...
+   已完成问题: How is diabetes mellitus diagnosed?...
+   已完成问题: What are the main treatment approaches for diabete...
+   已完成问题: What are the two main categories of diabetes melli...
+   已完成问题: What are some later complications of diabetes mell...
+   结果已保存到 prompt_comparison_20250609_154357.json
+   报告已生成: prompt_report_20250609_154357.txt
+
+   实验完成！生成文件：
+   - prompt_comparison_*.json (完整数据)
+   - prompt_report_*.txt (易读报告)
+
+   程序结束
    ```
